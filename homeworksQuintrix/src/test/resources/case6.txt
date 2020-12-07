@@ -1,0 +1,25 @@
+Bug ID: 6
+Test Case ID: 6
+Run Result ID: 6
+Assigned To: Samanja
+Bug Status: New
+Severity: Medium/High
+Priority: Medium
+Disappearing Elements
+-------------------
+Summary:
+There is a navigation bar with 5 menu buttons which when clicked is supposed to open a different page. maybe in the case
+of the home button it is supposed to refresh the home page
+Setup:
+http://the-internet.herokuapp.com/disappearing_elements
+
+Steps:
+1. Click on the menu buttons to see if they work
+
+
+Expected Result:
+The menu buttons are supposed to make user enter different pages by clicking of the buttons
+
+Actual Result:
+The user gets error 404 on clicking of the buttons which means that the pages have not been found. This can happen
+if the buttons are not linked to a page that have been uploaded in the internet.

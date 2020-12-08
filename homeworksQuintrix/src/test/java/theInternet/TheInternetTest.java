@@ -332,22 +332,26 @@ public class TheInternetTest extends TheInternetTestBase{
   //Works partially
   @Test
   public void demoqaSite() throws InterruptedException {
-	  System.setProperty("webdriver.chrome.driver", "src\\test\\resources\\chromedriver.exe");
-		 WebDriver driver = new ChromeDriver();
-		 String url ="https://demoqa.com";
-		 
+	 System.setProperty("webdriver.chrome.driver", "src\\test\\resources\\chromedriver.exe");
+		 WebDriver driver = new ChromeDriver(); 
+		 String url ="http://www.demoqa.com";
+		
 		 //Act
 	   Demoqa d = new Demoqa(driver,url);
 	   d.navigate()
 	   .formFilling();
+	   String title= d.t;
+	   Assert.assertEquals(title, "https://www.demoqa.com/automation-practice-form");
 		
 	  }
 @BeforeTest
   public void beforeTest() {
+	//super.beforeTest();
   }
 
   @AfterTest
   public void afterTest() {
+	//  super.afterTest();
   }
 
 }

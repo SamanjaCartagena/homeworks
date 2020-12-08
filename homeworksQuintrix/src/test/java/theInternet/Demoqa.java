@@ -41,7 +41,7 @@ public class Demoqa extends PageObjectBase {
 				return this;
 			}
 
-		
+		String t ;
 		public void formFilling() throws InterruptedException {
 			inputName1.sendKeys("Samanja");
 			inputName2.sendKeys("Cartagena");
@@ -89,6 +89,7 @@ public class Demoqa extends PageObjectBase {
 			 
 			 System.out.println("select city is "+selectCity.isEnabled());
 			 
+			 
 			 System.out.println(""+selectCity.getTagName());
 			 
            WebElement country = driver.findElement(By.className("css-1g6gooi"));
@@ -104,12 +105,14 @@ public class Demoqa extends PageObjectBase {
           submitBtn.submit();
           
           Thread.sleep(2000);
-
+              boolean close =false;
           
           WebElement closeBtn= driver.findElement(By.xpath("//body/div/div/div/div[3]/button"));
           closeBtn.click();
-
-			
+          t=driver.getCurrentUrl();
+          
 			
 		}
+		
+		
 }

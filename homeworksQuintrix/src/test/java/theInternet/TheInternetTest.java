@@ -258,7 +258,24 @@ public class TheInternetTest extends TheInternetTestBase{
    .slide();
    String actualNum=hs.num;
    Assert.assertEquals(actualNum, "2.5");
-  }				
+  }		
+  //Works properly
+  @Test
+  public void redirectLink() throws InterruptedException {
+	  //Arrange
+	 System.setProperty("webdriver.chrome.driver","src\\test\\resources\\chromedriver.exe");
+	 WebDriver driver = new ChromeDriver();
+	 String url ="http://the-internet.herokuapp.com";
+	 
+	 //Act
+	Redirector r= new Redirector(driver,url);
+	r.navigate()
+    .linking();
+	String url1=r.t1;
+	String url2=r.t2;
+	Assert.assertEquals(url1, "http://the-internet.herokuapp.com/status_codes/200");
+	Assert.assertEquals(url2, "http://the-internet.herokuapp.com/status_codes/301");
+  }
   //Works properly tested very thoroughly
   @Test
   public void jsalert() throws InterruptedException {

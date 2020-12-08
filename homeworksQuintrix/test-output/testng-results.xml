@@ -2,20 +2,20 @@
 <testng-results ignored="16" total="17" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-12-08T13:30:22 EST" name="Default suite" finished-at="2020-12-08T13:30:34 EST" duration-ms="11153">
+  <suite started-at="2020-12-08T13:37:10 EST" name="Default suite" finished-at="2020-12-08T13:37:20 EST" duration-ms="10207">
     <groups>
     </groups>
-    <test started-at="2020-12-08T13:30:22 EST" name="Default test" finished-at="2020-12-08T13:30:34 EST" duration-ms="11153">
+    <test started-at="2020-12-08T13:37:10 EST" name="Default test" finished-at="2020-12-08T13:37:20 EST" duration-ms="10207">
       <class name="theInternet.TheInternetTest">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:theInternet.TheInternetTest@1356d4d4]" started-at="2020-12-08T13:30:22 EST" name="beforeTest" finished-at="2020-12-08T13:30:22 EST" duration-ms="24" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:theInternet.TheInternetTest@6497b078]" started-at="2020-12-08T13:37:10 EST" name="beforeTest" finished-at="2020-12-08T13:37:10 EST" duration-ms="13" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="f()[pri:0, instance:theInternet.TheInternetTest@1356d4d4]" started-at="2020-12-08T13:30:22 EST" name="f" finished-at="2020-12-08T13:30:34 EST" duration-ms="11068" status="PASS">
+        <test-method signature="demoqaSite()[pri:0, instance:theInternet.TheInternetTest@6497b078]" started-at="2020-12-08T13:37:10 EST" name="demoqaSite" finished-at="2020-12-08T13:37:20 EST" duration-ms="10131" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:theInternet.TheInternetTest@1356d4d4]" started-at="2020-12-08T13:30:34 EST" name="afterTest" finished-at="2020-12-08T13:30:34 EST" duration-ms="0" status="PASS">
+        </test-method> <!-- demoqaSite -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:theInternet.TheInternetTest@6497b078]" started-at="2020-12-08T13:37:20 EST" name="afterTest" finished-at="2020-12-08T13:37:20 EST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->

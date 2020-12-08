@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="datadriven.World_x">
+      <class name="theInternet.TheInternetTest">
         <methods>
-          <include name="enterData"/>
+          <include name="beforeTest"/>
+          <include name="demoqaSite"/>
+          <include name="afterTest"/>
         </methods>
-      </class> <!-- datadriven.World_x -->
+      </class> <!-- theInternet.TheInternetTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

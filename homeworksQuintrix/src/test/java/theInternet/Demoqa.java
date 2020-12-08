@@ -56,7 +56,7 @@ public class Demoqa extends PageObjectBase {
 			driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 			birthdate.sendKeys("9 June 1988");
 			birthdate.sendKeys(Keys.ENTER);
-			driver.findElement(By.xpath("//div[@id='subjectsWrapper']/div[2]/div/div/div/div[2]")).sendKeys("Math");
+		//	driver.findElement(By.xpath("//div[@id='subjectsWrapper']/div[2]/div/div/div/div[2]")).sendKeys("Math");
 			
 		//	driver.findElement(By.xpath("//div[@id='subjectsWrapper']/div[2]/div/div/div")).sendKeys("Math");
 			//driver.findElement(By.cssSelector("div[class*='subjects']")).sendKeys("CSC");

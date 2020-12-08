@@ -1,11 +1,8 @@
 package datadriven;
-/**
+
 import java.io.IOException;
 
-import org.apache.poi.ss.usermodel.Cell;
-import org.apache.poi.ss.usermodel.Row;
-import org.apache.poi.xssf.usermodel.XSSFSheet;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -34,4 +31,3 @@ public class ExcelDataProvider {
 		return data;
 	}
 }
-**/

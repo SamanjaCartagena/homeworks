@@ -16,7 +16,7 @@ public class TheInternetTest extends TheInternetTestBase{
   @Test
   public void f() {
 	  //Arrange
-		 System.setProperty("webdriver.chrome.driver", "C:\\Users\\c.samanja09\\eclipse-workspace\\homeworksQuintrix\\src\\main\\resources\\chromedriver.exe");
+		 System.setProperty("webdriver.chrome.driver", "src\\test\\resources\\chromedriver.exe");
 		 WebDriver driver = new ChromeDriver();
 		 String url ="http://the-internet.herokuapp.com/";
 		 //Act
@@ -31,7 +31,7 @@ public class TheInternetTest extends TheInternetTestBase{
   @Test
   public void addRemove() throws InterruptedException {
 	  //Arrange
-	 System.setProperty("webdriver.chrome.driver", "C:\\Users\\c.samanja09\\eclipse-workspace\\homeworksQuintrix\\src\\main\\resources\\chromedriver.exe");
+	 System.setProperty("webdriver.chrome.driver", "src\\test\\resources\\chromedriver.exe");
 	 WebDriver driver = new ChromeDriver();
 	 String url ="http://the-internet.herokuapp.com";
 	 
@@ -47,7 +47,7 @@ public class TheInternetTest extends TheInternetTestBase{
   @Test
   public void challenging() throws InterruptedException {
 	  //Arrange
-	 System.setProperty("webdriver.chrome.driver", "C:\\Users\\c.samanja09\\eclipse-workspace\\homeworksQuintrix\\src\\main\\resources\\chromedriver.exe");
+	 System.setProperty("webdriver.chrome.driver", "src\\test\\resources\\chromedriver.exe");
 	 WebDriver driver = new ChromeDriver();
 	 String url ="http://the-internet.herokuapp.com";
 	 
@@ -62,7 +62,7 @@ public class TheInternetTest extends TheInternetTestBase{
   @Test
   public void fileUp() throws InterruptedException {
 	  //Arrange
-	 System.setProperty("webdriver.chrome.driver", "C:\\Users\\c.samanja09\\Downloads\\chromedriver_win32\\chromedriver.exe");
+	 System.setProperty("webdriver.chrome.driver", "src\\test\\resources\\chromedriver.exe");
 	 WebDriver driver = new ChromeDriver();
 	 String url ="http://the-internet.herokuapp.com";
 	 
@@ -146,7 +146,7 @@ public class TheInternetTest extends TheInternetTestBase{
   @Test
   public void disappear() throws InterruptedException {
 	  //Arrange
-	 System.setProperty("webdriver.chrome.driver", "C:\\Users\\c.samanja09\\Downloads\\chromedriver_win32\\chromedriver.exe");
+	 System.setProperty("webdriver.chrome.driver", "src\\test\\resources\\chromedriver.exe");
 	 WebDriver driver = new ChromeDriver();
 	 String url ="http://the-internet.herokuapp.com";
 	 
@@ -165,7 +165,7 @@ public class TheInternetTest extends TheInternetTestBase{
   @Test
   public void canSelectDropDownList() {
 	  //Arrange
-	 System.setProperty("webdriver.chrome.driver", "C:\\Users\\c.samanja09\\Downloads\\chromedriver_win32\\chromedriver.exe");
+	 System.setProperty("webdriver.chrome.driver", "src\\test\\resources\\chromedriver.exe");
 	 WebDriver driver = new ChromeDriver();
 	 String url ="http://the-internet.herokuapp.com/";
 	 String expectedSelection="Option 2";
@@ -181,7 +181,7 @@ public class TheInternetTest extends TheInternetTestBase{
   @Test
   public void dynamic() throws InterruptedException {
 	  //Arrange
-	 System.setProperty("webdriver.chrome.driver", "C:\\Users\\c.samanja09\\Downloads\\chromedriver_win32\\chromedriver.exe");
+	 System.setProperty("webdriver.chrome.driver", "src\\test\\resources\\chromedriver.exe");
 	 WebDriver driver = new ChromeDriver();
 	 String url ="http://the-internet.herokuapp.com";
 	 
@@ -200,7 +200,7 @@ public class TheInternetTest extends TheInternetTestBase{
   @Test
   public void presses() throws InterruptedException {
 	  //Arrange
-	 System.setProperty("webdriver.chrome.driver", "C:\\Users\\c.samanja09\\Downloads\\chromedriver_win32\\chromedriver.exe");
+	 System.setProperty("webdriver.chrome.driver", "src\\test\\resources\\chromedriver.exe");
 	 WebDriver driver = new ChromeDriver();
 	 String url ="http://the-internet.herokuapp.com";
 	 
@@ -214,7 +214,7 @@ public class TheInternetTest extends TheInternetTestBase{
   @Test
   public void forgot() throws InterruptedException {
 	  //Arrange
-	 System.setProperty("webdriver.chrome.driver", "C:\\Users\\c.samanja09\\Downloads\\chromedriver_win32\\chromedriver.exe");
+	 System.setProperty("webdriver.chrome.driver", "src\\test\\resources\\chromedriver.exe");
 	 WebDriver driver = new ChromeDriver();
 	 String url ="http://the-internet.herokuapp.com";
 	 
@@ -229,7 +229,7 @@ public class TheInternetTest extends TheInternetTestBase{
   @Test
   public void formAuthenticate() {
 	  //Arrange
-	 System.setProperty("webdriver.chrome.driver", "C:\\Users\\c.samanja09\\Downloads\\chromedriver_win32\\chromedriver.exe");
+	 System.setProperty("webdriver.chrome.driver", "src\\test\\resources\\chromedriver.exe");
 	 WebDriver driver = new ChromeDriver();
 	 String url ="http://the-internet.herokuapp.com";
 	 
@@ -248,7 +248,7 @@ public class TheInternetTest extends TheInternetTestBase{
   @Test
   public void slid() throws InterruptedException {
 	  //Arrange
-	 System.setProperty("webdriver.chrome.driver", "C:\\Users\\c.samanja09\\Downloads\\chromedriver_win32\\chromedriver.exe");
+	 System.setProperty("webdriver.chrome.driver", "src\\test\\resources\\chromedriver.exe");
 	 WebDriver driver = new ChromeDriver();
 	 String url ="http://the-internet.herokuapp.com";
 	 
@@ -263,7 +263,7 @@ public class TheInternetTest extends TheInternetTestBase{
   @Test
   public void jsalert() throws InterruptedException {
 	  //Arrange
-	 System.setProperty("webdriver.chrome.driver", "C:\\Users\\c.samanja09\\Downloads\\chromedriver_win32\\chromedriver.exe");
+	 System.setProperty("webdriver.chrome.driver", "src\\test\\resources\\chromedriver.exe");
 	 WebDriver driver = new ChromeDriver();
 	 String url ="http://the-internet.herokuapp.com";
 	 
@@ -283,7 +283,7 @@ public class TheInternetTest extends TheInternetTestBase{
   @Test
   public void checkFrame() throws InterruptedException {
 	  //Arrange
-	 System.setProperty("webdriver.chrome.driver", "C:\\Users\\c.samanja09\\Downloads\\chromedriver_win32\\chromedriver.exe");
+	 System.setProperty("webdriver.chrome.driver", "src\\test\\resources\\chromedriver.exe");
 	 WebDriver driver = new ChromeDriver();
 	 String url ="http://the-internet.herokuapp.com";
 	 
@@ -298,7 +298,7 @@ public class TheInternetTest extends TheInternetTestBase{
   //Works partially
   @Test
   public void demoqaSite() throws InterruptedException {
-	  System.setProperty("webdriver.chrome.driver", "C:\\Users\\c.samanja09\\Downloads\\chromedriver_win32\\chromedriver.exe");
+	  System.setProperty("webdriver.chrome.driver", "src\\test\\resources\\chromedriver.exe");
 		 WebDriver driver = new ChromeDriver();
 		 String url ="https://demoqa.com";
 		 

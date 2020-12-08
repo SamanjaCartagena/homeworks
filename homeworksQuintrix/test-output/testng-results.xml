@@ -1,61 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="16" total="17" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-12-07T12:40:56 EST" name="Default suite" finished-at="2020-12-07T12:40:59 EST" duration-ms="3001">
+  <suite started-at="2020-12-08T13:30:22 EST" name="Default suite" finished-at="2020-12-08T13:30:34 EST" duration-ms="11153">
     <groups>
     </groups>
-    <test started-at="2020-12-07T12:40:56 EST" name="Default test" finished-at="2020-12-07T12:40:59 EST" duration-ms="3001">
-      <class name="datadriven.World_x">
-        <test-method signature="enterData()[pri:0, instance:datadriven.World_x@3571b748]" started-at="2020-12-07T12:40:56 EST" name="enterData" finished-at="2020-12-07T12:40:59 EST" duration-ms="2946" status="FAIL">
-          <exception class="java.sql.SQLSyntaxErrorException">
-            <message>
-              <![CDATA[You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
-at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
-at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
-at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
-at com.mysql.cj.jdbc.StatementImpl.executeUpdateInternal(StatementImpl.java:1335)
-at com.mysql.cj.jdbc.StatementImpl.executeLargeUpdate(StatementImpl.java:2108)
-at com.mysql.cj.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1245)
-at datadriven.World_x.enterData(World_x.java:35)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.sql.SQLSyntaxErrorException -->
+    <test started-at="2020-12-08T13:30:22 EST" name="Default test" finished-at="2020-12-08T13:30:34 EST" duration-ms="11153">
+      <class name="theInternet.TheInternetTest">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:theInternet.TheInternetTest@1356d4d4]" started-at="2020-12-08T13:30:22 EST" name="beforeTest" finished-at="2020-12-08T13:30:22 EST" duration-ms="24" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- enterData -->
-      </class> <!-- datadriven.World_x -->
+        </test-method> <!-- beforeTest -->
+        <test-method signature="f()[pri:0, instance:theInternet.TheInternetTest@1356d4d4]" started-at="2020-12-08T13:30:22 EST" name="f" finished-at="2020-12-08T13:30:34 EST" duration-ms="11068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:theInternet.TheInternetTest@1356d4d4]" started-at="2020-12-08T13:30:34 EST" name="afterTest" finished-at="2020-12-08T13:30:34 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- theInternet.TheInternetTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
